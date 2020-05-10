@@ -1,0 +1,79 @@
+body {
+  min-height: 100vh;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  color: whitesmoke;
+  font-size: 70px;
+  margin:0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 4px;
+  font-family: 'IndieFlower';
+}
+
+.section-header {
+  background: black url(assets/img/header.png);
+  max-height: 150px;
+  background-size: 1370px 300px;
+}
+
+.form {
+  min-height: 70vh;
+  padding: 2%;
+  opacity: 0.65;
+  background: url(assets/img/chalkboard-background.jpg);
+  text-align: -webkit-center;
+  padding-top: 150px;
+  background-size: 1370px 730px;
+}
+
+input {
+  font-size: 1.5em;
+  margin: 1em;
+  padding: 0.5em 1em;
+  border: 2px solid rgb(39, 40, 39);
+  border-radius: 5px;
+  display: block;
+  width: 30%;
+  font-family: 'IndieFlower';
+}
+
+.footerSection {
+  display: flex;
+  background: rgb(82, 82, 78);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footerImage {
+  src: url(assets/img/clipart3376383.png);
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+}
+
+.footer {
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  font-family: 'IndieFlower';
+}
+
+@font-face {
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url(./assets/fonts/PermanentMarker-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IndieFlower';
+  src: local('IndieFlower'), url(./assets/fonts/IndieFlower-Regular.ttf) format('truetype');
+}
