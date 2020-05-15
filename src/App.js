@@ -1,7 +1,7 @@
 import React from 'react'
 import { Router } from "@reach/router"
 import HomePage from './pages/HomePage'
-import VideoCallPage from './pages/VideoCallPage'
+import VideoCallPage from './pages/VideoCallPage/videoCallPage'
 
 import './App.css'
 import 'bulma/css/bulma.css'
