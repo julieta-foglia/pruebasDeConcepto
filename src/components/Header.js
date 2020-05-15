@@ -1,6 +1,5 @@
 import React from 'react';
-import '../App.css';
-import 'bulma/css/bulma.css'
+import { Link } from "@reach/router"
 
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
       <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item">
-            <img src="clipart3376383.png" width="30" height="30" />
+            <img src="./clipart3376383.png" width="30" height="30" />
           </a>
         </div>
 
@@ -16,21 +15,15 @@ function Header() {
           
           <div class="navbar-start">
             <div class="navbar-item">
-              <a>
-                Aula Virtual
-              </a>
+            <Link to="/">Home</Link>
             </div>
 
             <div class="navbar-item">
-              <a>
-                Videollamadas
-              </a>
+              <Link to="/videollamada">Videollamada</Link>
             </div>
 
             <div class="navbar-item">
-              <a>
-                Chat
-              </a>
+             <Link to="/videollamada">Chat</Link>
             </div>
           </div>
 

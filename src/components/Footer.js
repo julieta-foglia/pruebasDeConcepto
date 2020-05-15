@@ -6,9 +6,11 @@ const FooterComponent = styled.footer`
 background-color: #fafafa;
 padding-right: 1.5rem;
 padding-left: 1.5rem;
-min-height: 10vh;
+min-height: 5vh;
 display: flex;
 flex-direction: column;
+font-size: 10px;
+justify-content: center;
 `;
 
 const FooterComp = styled.footer`

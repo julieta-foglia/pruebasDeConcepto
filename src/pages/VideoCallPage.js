@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import {ProgressBar} from 'react-bootstrap'
 import styled from 'styled-components';
-import Header from './Header'
-import Footer from './Footer';
-import VideoCall from './VideoCall';
+import Header from '../components/Header'
+import Footer from '../components/Footer';
+import VideoCall from '../components/VideoCall';
 
 import '../App.css'
 
@@ -16,7 +16,7 @@ width: 40%;
 height: 5px;
 `;
 
-function VideoCallHome() {
+function VideoCallPage() {
   const [room, setRoom] = useState('')
   const [name, setName] = useState('')
   const [call, setCall] = useState(false)
@@ -53,4 +53,4 @@ function VideoCallHome() {
   )
 }
 
-export default VideoCallHome;
+export default VideoCallPage;

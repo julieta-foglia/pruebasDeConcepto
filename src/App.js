@@ -1,5 +1,7 @@
 import React from 'react'
-import Home from './components/Home'
+import { Router } from "@reach/router"
+import HomePage from './pages/HomePage'
+import VideoCallPage from './pages/VideoCallPage'
 
 import './App.css'
 import 'bulma/css/bulma.css'
@@ -8,7 +10,10 @@ import 'bulma/css/bulma.css'
 const App = () => {
 
   return (
-      <Home></Home>
+    <Router>
+      <HomePage path="/"/>
+      <VideoCallPage path="/videollamada"/>
+    </Router>
   )
 }
 
