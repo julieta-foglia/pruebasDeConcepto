@@ -1,38 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body {
-  min-height: 100vh;
+  font-family: "Poppins";
+  min-height: 68vh;
 }
 
 .todo {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-}
-
-.header {
-  color: whitesmoke;
-  font-size: 70px;
-  margin:0;
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  letter-spacing: 4px;
-  font-family: 'IndieFlower';
-}
-
-.section-header {
-  background: black url(assets/img/header.png);
-  max-height: 150px;
-  background-size: 1370px 300px;
+  min-height: 83vh;
 }
 
 .form {
-  min-height: 70vh;
+  min-height: 83vh;
   padding: 2%;
   opacity: 0.65;
-  background: url(assets/img/chalkboard-background.jpg);
   text-align: -webkit-center;
-  padding-top: 150px;
+  padding-top: 100px;
   background-size: 1370px 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
@@ -46,26 +34,10 @@ input {
   font-family: 'IndieFlower';
 }
 
-.footerSection {
-  display: flex;
-  background: rgb(82, 82, 78);
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.footerImage {
-  src: url(assets/img/clipart3376383.png);
-  width: 20px;
-  height: 20px;
-  padding-left: 15px;
-}
-
-.footer {
-  color: #FFFFFF;
-  text-align: center;
-  width: 100%;
-  text-align: center;
-  font-family: 'IndieFlower';
+.navImage {
+  width: 30px;
+  height: 30px;
+  src: url(./assets/img/clipart3376383.png);
 }
 
 @font-face {
