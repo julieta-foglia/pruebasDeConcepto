@@ -7,7 +7,7 @@ const VideoCall = ({ roomName, subject = 'Clase Virtual', userName }) => {
   const setElementHeight = () => {
     const element = document.querySelector(`#${parentNode}`);
     if (element) {
-      element.style.height = `${element.parentElement.clientHeight}px`;
+      element.style.height = '85vh';
     }
   }
 
