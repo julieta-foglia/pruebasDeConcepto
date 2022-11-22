@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-jitsi": "^1.0.2",
     "react-jutsu": "^2.1.5",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "styled-components": "^5.1.0"
   },
   "scripts": {
